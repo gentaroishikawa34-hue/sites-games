@@ -220,16 +220,16 @@
     "slug": "roman-shoutaro-room",
     "archive": "roman-shoutaro-room-public.zip",
     "bytes": 6858867,
-    "sha256": "0ab8d6551d2260b7d8b61518c954127c84b570931c6a86263b04dac5a5623e36",
-    "git_sha": "9fa767c49dfb5f441fc8962d4433b6cd3bc48dda",
+    "sha256": "9d4f4a324b57c4002a4e72ed79dd80163d06bfd30b7863242a654241cf4d1532",
+    "git_sha": "85ab0b0573c834765637f96a87beea730e3460d4",
     "adjusted_files": []
   },
   {
     "slug": "ryu-scout",
     "archive": "ryu-scout-public.zip",
     "bytes": 246545,
-    "sha256": "999c7c04e15639ef1b679fb5bc828489e2bdaae21ac4d7b985d771c704630e30",
-    "git_sha": "a8531647ca3476eaaf6869b4610e9748ce04dc7f",
+    "sha256": "be9b20228d6f6585223af256d236db4dea85b6686b8181550451bcaa79ea4cd5",
+    "git_sha": "da7b51f8d45cdb45768d7cd662f27f78f00bf56e",
     "adjusted_files": [
       "app.mjs",
       "index.html"
@@ -239,88 +239,88 @@
     "slug": "taiketsu-kaizo-ningen",
     "archive": "taiketsu-kaizo-ningen-public.zip",
     "bytes": 15063293,
-    "sha256": "23baabcfc018a14c67b4c94c7704a6c53e33c1dd760615d8ad68450bf75d4b01",
-    "git_sha": "f4f7e43f56ada633d5bec9e08973f745e4fc6ea4",
+    "sha256": "5b3dac98beb7710d02113fa3614124a0ee6200f021276500b9cd79467c180a62",
+    "git_sha": "ed0f7f5826d7e8edf23590b1c834ed6ca7bc8604",
     "adjusted_files": []
   },
   {
     "slug": "timeless-attack",
     "archive": "timeless-attack-public.zip",
     "bytes": 6607529,
-    "sha256": "efdfe024e49b46d8410f08c96a85f91a642ea5b15f65ecf95c65321748ed824d",
-    "git_sha": "b7c72f7a2602032c44cd65c62e7d67e542fcf08f",
+    "sha256": "949430ffa2aea4441e874dcf2a303860b1eb946b36195981bb12013aec0681fc",
+    "git_sha": "7203e72efd717e8b7b5e39e5fe5850538f869130",
     "adjusted_files": []
   },
   {
     "slug": "tototo-kantei",
     "archive": "tototo-kantei-public.zip",
     "bytes": 1564840,
-    "sha256": "2efa8e98cfb12791f29e5c12cba0e914a03ebade767a3976b68d19d64ed18c3c",
-    "git_sha": "1607e6817cc3961492907b76807d828807ef8bf4",
+    "sha256": "c242be196dbabf6abeee978e501b5778faf85cc4a14b9c5933eb089c9ae03ba9",
+    "git_sha": "4457268168299cb8c7e3369fa53122470bc42b65",
     "adjusted_files": []
   },
   {
     "slug": "udon-daihanjo",
     "archive": "udon-daihanjo-public.zip",
     "bytes": 2991976,
-    "sha256": "a4d5f47a8221423da1904d96974d89d7f5a7765dcaefe89750fe2bfe699d31bc",
-    "git_sha": "21a25a1e45438150995b21264165603d67003c1c",
+    "sha256": "20140d021767e08da6375c6cf4b7338b6fb6d92e4d2fbcc09abdc8eb3a1a9b68",
+    "git_sha": "901739c094fc4fe7ee5a9bc89ee23fc48ff3d1fe",
     "adjusted_files": []
   },
   {
     "slug": "unyielding-knight",
     "archive": "unyielding-knight-public.zip",
     "bytes": 1350118,
-    "sha256": "1a52c6177febea572a3cd3640c1144ff1d546af3906cfdd2e084388cdada76c8",
-    "git_sha": "764653020631be1f7ce5cdff0146bff72210a405",
+    "sha256": "fc171b633dffa5c1c2ed4f258cc625705a8d17e4c60a5220c2848e5f3bd6a520",
+    "git_sha": "f16bdb1323e70d5df77b05f8de7eb5bd12cf38d5",
     "adjusted_files": []
   },
   {
     "slug": "uta-awase",
     "archive": "uta-awase-public.zip",
     "bytes": 3756128,
-    "sha256": "0c6351ff8fbd8f434602bb0fc2fb6cc2d74d02ec309a4257902425c250b59097",
-    "git_sha": "42744be90a2126cb293f7c20aaed3aabf288808c",
+    "sha256": "ad3f573d9cafd51d2a5803ffc94a44d2690aae29d343c7db7423df62729f1a79",
+    "git_sha": "0923051fed323c960c1840d49718b2230754d033",
     "adjusted_files": []
   },
   {
     "slug": "uta-awase-v2",
     "archive": "uta-awase-v2-public.zip",
     "bytes": 18944500,
-    "sha256": "c0e5ff3fa185d67046b1a0af0cb01f42a556ff6cf1a127277bd08f407adaa1d1",
-    "git_sha": "f911b4528b02046f42482b1c568f3a18961d01e7",
+    "sha256": "e585c95875dc483ccfe2ef49a3097322f059c2799d334f86a4a7a3fee2266d31",
+    "git_sha": "918fc511471a77358991bdab922d373debc173a3",
     "adjusted_files": []
   },
   {
     "slug": "watashi-no-kuzuotoko",
     "archive": "watashi-no-kuzuotoko-public.zip",
     "bytes": 514503,
-    "sha256": "39145fc2f8b23ed2c375f7d27f40bdc1fa57c0e641d59be5c2e26d99750c9589",
-    "git_sha": "dd8fd1d2a2b718de88fd5b53e6d21ba285cf7ad5",
+    "sha256": "281881c4831ca3d71b0515afaa581dabd442633d62c873d921f409cf53584837",
+    "git_sha": "1feb234a7a50e0ef4e512456fe598283c5826afa",
     "adjusted_files": []
   },
   {
     "slug": "watashi-no-kyososama",
     "archive": "watashi-no-kyososama-public.zip",
     "bytes": 13610635,
-    "sha256": "797f6928635380e91d794a9776fa48ec1d1cb48dc5bf4648308c394d1cfe5101",
-    "git_sha": "21f86254d5f9c92909d9df4265f84860f8b3573a",
+    "sha256": "ea13715436a189faff795c33b1540d092abb80dd3049fa4986406adf2ea1b786",
+    "git_sha": "13a41bfa42015edfec188c16be144750d49563e7",
     "adjusted_files": []
   },
   {
     "slug": "watashi-no-kyososama-2",
     "archive": "watashi-no-kyososama-2-public.zip",
     "bytes": 14115353,
-    "sha256": "5d5ee4057974287457cc411146611e767e9bcb780d4f915941d07e1c66441c1a",
-    "git_sha": "0ab7f80d5290fcf308e5a5431a6abe212ac35a5b",
+    "sha256": "4ed25bc643f12566f546bbed543c9f5d138a82d828cd374f112ee9e605beb2a2",
+    "git_sha": "0483a46a34aa5cc9a46ca5ae8ff17a6eca4d7ffa",
     "adjusted_files": []
   },
   {
     "slug": "yami-shiokinin",
     "archive": "yami-shiokinin-public.zip",
     "bytes": 9860534,
-    "sha256": "35818f1a16241eef5a9118fa75f26fe1ce5a95d1641662fa33a34e6fffbb982f",
-    "git_sha": "a7908a6f15793943c2ea57459c538dd6c542b878",
+    "sha256": "382207faf2016f2ac24496926165f6a08e33d154edc7f3ac2483a77ea1d18899",
+    "git_sha": "447430d5060328dc2e1a26a64d63a2fb9d230b9f",
     "adjusted_files": []
   }
 ]
