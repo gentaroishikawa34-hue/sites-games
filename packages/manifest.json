@@ -1,0 +1,326 @@
+[
+  {
+    "slug": "bistrante-morineko",
+    "archive": "bistrante-morineko-public.zip",
+    "bytes": 4119170,
+    "sha256": "267a410763d9bf8e523db73944a1c39c532204d38544404b8697c855bdcd1d87",
+    "git_sha": "454d1ab59f39978128bb77e81a9cf133b3d2a456",
+    "adjusted_files": [
+      "index.html"
+    ]
+  },
+  {
+    "slug": "burger-stack",
+    "archive": "burger-stack-public.zip",
+    "bytes": 2705211,
+    "sha256": "4bcb38297a9a333b2c29f25a6ec3f1e421143854a90accf89f30f367ac8f70a7",
+    "git_sha": "58d7d97c7c5ad2f85040d480dfd44ca63096296f",
+    "adjusted_files": []
+  },
+  {
+    "slug": "furuhon-hakkutsu",
+    "archive": "furuhon-hakkutsu-public.zip",
+    "bytes": 4220517,
+    "sha256": "ffd00218c096b0b6264eb48dc444bfd683734cb96efd4f276beaf6ad466ec6ad",
+    "git_sha": "b8fadfb5c60d9eaf34ecd751de0145f3f9ae24ca",
+    "adjusted_files": []
+  },
+  {
+    "slug": "hone-no-yukisaki",
+    "archive": "hone-no-yukisaki-public.zip",
+    "bytes": 6333483,
+    "sha256": "fb2c699ee5a6b3201a957af8e71287e74292af394c4effa5cb07a4a478a9d9f6",
+    "git_sha": "6e989a3a89c12d3d7925fcb29e999febf63f080f",
+    "adjusted_files": []
+  },
+  {
+    "slug": "hoshikage-singularity",
+    "archive": "hoshikage-singularity-public.zip",
+    "bytes": 41610,
+    "sha256": "d79d4d90ee61e3b175ddd2f876912c184a7c8735ddde2e1e8ae6b5bca259262b",
+    "git_sha": "c0115975bafd216c957d10ef219cfcffea4932a0",
+    "adjusted_files": []
+  },
+  {
+    "slug": "idea-stock",
+    "archive": "idea-stock-public.zip",
+    "bytes": 12860,
+    "sha256": "5d1570d70522f8da1c87f7f46dd8243b184387a09b957f7425b80ebb47cd8340",
+    "git_sha": "c55e98f46b3f556f7cc21f8a639fdcc46f0aba15",
+    "adjusted_files": [
+      "app.js",
+      "index.html",
+      "manifest.webmanifest",
+      "setup.html"
+    ]
+  },
+  {
+    "slug": "kangan-sangokushi-kokki",
+    "archive": "kangan-sangokushi-kokki-public.zip",
+    "bytes": 2612872,
+    "sha256": "92a783102cd0fe21fb88412004d1dad6611b1db16427a2c5cdd7e7855a909fdd",
+    "git_sha": "2f8286661c9bafd66a1c971d70b6d4e540d21d83",
+    "adjusted_files": []
+  },
+  {
+    "slug": "kotei-hado",
+    "archive": "kotei-hado-public.zip",
+    "bytes": 419199,
+    "sha256": "44c6e3c0c674a677d994a7b9fa4d40c6f836d57b791d4c7c3065be6f65698803",
+    "git_sha": "abab0daf4a4b413f69e642090aa87ba113085346",
+    "adjusted_files": []
+  },
+  {
+    "slug": "kotoba-no-tatsujin",
+    "archive": "kotoba-no-tatsujin-public.zip",
+    "bytes": 6187430,
+    "sha256": "9a4edb38530c5231e61246ec9cf31b0255597fa9ad1950357a7e65794f5e2a42",
+    "git_sha": "ac91415bfda4101bd0b25339cf656819851ff8bc",
+    "adjusted_files": [
+      "app.js"
+    ]
+  },
+  {
+    "slug": "life-story",
+    "archive": "life-story-public.zip",
+    "bytes": 16280,
+    "sha256": "6ad7aeba0834f5b0101edf4311d5e3031114b000e8839796b4200f18492e0d71",
+    "git_sha": "07c623ecca168068624af3a13ef0a0acd35387fa",
+    "adjusted_files": []
+  },
+  {
+    "slug": "morineko-find",
+    "archive": "morineko-find-public.zip",
+    "bytes": 4275739,
+    "sha256": "dae9f049ef653b0c51954d68c080e42735a285a8ec07fbb60dcf943a29e1f1be",
+    "git_sha": "c2cf861280858811239df39cada1c48ac4774a15",
+    "adjusted_files": []
+  },
+  {
+    "slug": "piece-okazaki",
+    "archive": "piece-okazaki-public.zip",
+    "bytes": 1397535,
+    "sha256": "a1737fa716bffa6464c5fc46e71177cf1ee15ee13b818147545e6d15ed848c82",
+    "git_sha": "e97b13b25d7e76f6aa42cbb9130338eec0a084bf",
+    "adjusted_files": [
+      "about/index.html",
+      "access/index.html",
+      "cakes/index.html",
+      "gift/index.html",
+      "index.html",
+      "news/index.html",
+      "whole-cake/index.html"
+    ]
+  },
+  {
+    "slug": "roman-love-family",
+    "archive": "roman-love-family-public.zip",
+    "bytes": 1876834,
+    "sha256": "be70b91e8a848bc4cdea706ffa363c0561e33eab7c32bd1efbcad4615dfd4f5e",
+    "git_sha": "3ff7ada1a4aec93a434b4e198afc28448da009f5",
+    "adjusted_files": [
+      "app.js"
+    ]
+  },
+  {
+    "slug": "roman-love-gokudo-chinchiro",
+    "archive": "roman-love-gokudo-chinchiro-public.zip",
+    "bytes": 498565,
+    "sha256": "f90cc99cb13a5c4cc84f0476771a841a961dcc300741f00ad50f694cedfdf571",
+    "git_sha": "0eff180b1fb66113c9ee0063b88fa6dcc05159fd",
+    "adjusted_files": []
+  },
+  {
+    "slug": "roman-love-gokudo-mitsugiai",
+    "archive": "roman-love-gokudo-mitsugiai-public.zip",
+    "bytes": 611499,
+    "sha256": "8103cf18cfd2360e2a3da756e91ed51e75c4583f12d888e89b715a9ef6742191",
+    "git_sha": "1100d38b140248f766dd28d4da285d25816ef35c",
+    "adjusted_files": []
+  },
+  {
+    "slug": "roman-love-ichiro",
+    "archive": "roman-love-ichiro-public.zip",
+    "bytes": 236237,
+    "sha256": "031183f9f181700c50bfa2132d9e7a819bf61190e36d881dba40e1fc4304fd27",
+    "git_sha": "8fae29cb5e0ef235811f787db9a2d513a44d116b",
+    "adjusted_files": [
+      "index.html"
+    ]
+  },
+  {
+    "slug": "roman-love-meigen",
+    "archive": "roman-love-meigen-public.zip",
+    "bytes": 945887,
+    "sha256": "70bd96b009465a9fafe1184d27f02d9eca3ce458a3aa0a3b094276eabd11551c",
+    "git_sha": "481921fd19c3d9b5084c04d7d104c9cb58038c2b",
+    "adjusted_files": []
+  },
+  {
+    "slug": "roman-love-nyudo",
+    "archive": "roman-love-nyudo-public.zip",
+    "bytes": 7233436,
+    "sha256": "52b2c30787da5ded4f24e30ebc0e98869cb42ec8b5875514029c904a428a5322",
+    "git_sha": "70d2b14fb0eb537868ff74ad7cd90448a048b6cf",
+    "adjusted_files": []
+  },
+  {
+    "slug": "roman-love-nyudo-meter",
+    "archive": "roman-love-nyudo-meter-public.zip",
+    "bytes": 25835288,
+    "sha256": "d96cd40ce8479f751b005e032b636bd839688628431ddfcf0b53d011960845fe",
+    "git_sha": "c3d0ee8fff801c72550639b56f3c0b279f56431c",
+    "adjusted_files": [],
+    "parts": [
+      {
+        "name": "roman-love-nyudo-meter-public.zip.part1",
+        "git_sha": "4418db6151bb5b5fbc6ab2dde2823db8f344f443"
+      },
+      {
+        "name": "roman-love-nyudo-meter-public.zip.part2",
+        "git_sha": "2ce7b8a22207406ef303561a3b7e268664cf39c1"
+      }
+    ]
+  },
+  {
+    "slug": "roman-love-singer-go",
+    "archive": "roman-love-singer-go-public.zip",
+    "bytes": 2393002,
+    "sha256": "6a8d2143f51c6acabaa1d73cd41bd2eb6f23dffbb04dbea2ad64c39343be101c",
+    "git_sha": "41e76ca1d0dd8760f0ad10145d1d2e9469bf89a6",
+    "adjusted_files": []
+  },
+  {
+    "slug": "roman-lovejiro-koibumi",
+    "archive": "roman-lovejiro-koibumi-public.zip",
+    "bytes": 1826114,
+    "sha256": "4b3831a6ba9d751bb3cd080e1470940c85e261613c29da5720f9aa0727606bdd",
+    "git_sha": "d6eee2f48d229c27fcece4a60527dd92d8e0f1df",
+    "adjusted_files": []
+  },
+  {
+    "slug": "roman-lovejiro-koimikuji",
+    "archive": "roman-lovejiro-koimikuji-public.zip",
+    "bytes": 3125566,
+    "sha256": "0bffdbf2bc8c7729abd862a2c0e18aff99fe9c59ea1d34d3539237b4c46a5ab3",
+    "git_sha": "ad9775a67a3fb25de57743cadf5a53bc2dc60a43",
+    "adjusted_files": [
+      "index.html"
+    ]
+  },
+  {
+    "slug": "roman-lovejiro-koiuta",
+    "archive": "roman-lovejiro-koiuta-public.zip",
+    "bytes": 630394,
+    "sha256": "1b68acc547d82ecf54b43d087896f08c3fa968294dbc18be3cf3f0809056686b",
+    "git_sha": "41e786f3821969abcc64e081ebcb0e037c4610d2",
+    "adjusted_files": []
+  },
+  {
+    "slug": "roman-shoutaro-room",
+    "archive": "roman-shoutaro-room-public.zip",
+    "bytes": 6858867,
+    "sha256": "0ab8d6551d2260b7d8b61518c954127c84b570931c6a86263b04dac5a5623e36",
+    "git_sha": "9fa767c49dfb5f441fc8962d4433b6cd3bc48dda",
+    "adjusted_files": []
+  },
+  {
+    "slug": "ryu-scout",
+    "archive": "ryu-scout-public.zip",
+    "bytes": 246545,
+    "sha256": "999c7c04e15639ef1b679fb5bc828489e2bdaae21ac4d7b985d771c704630e30",
+    "git_sha": "a8531647ca3476eaaf6869b4610e9748ce04dc7f",
+    "adjusted_files": [
+      "app.mjs",
+      "index.html"
+    ]
+  },
+  {
+    "slug": "taiketsu-kaizo-ningen",
+    "archive": "taiketsu-kaizo-ningen-public.zip",
+    "bytes": 15063293,
+    "sha256": "23baabcfc018a14c67b4c94c7704a6c53e33c1dd760615d8ad68450bf75d4b01",
+    "git_sha": "f4f7e43f56ada633d5bec9e08973f745e4fc6ea4",
+    "adjusted_files": []
+  },
+  {
+    "slug": "timeless-attack",
+    "archive": "timeless-attack-public.zip",
+    "bytes": 6607529,
+    "sha256": "efdfe024e49b46d8410f08c96a85f91a642ea5b15f65ecf95c65321748ed824d",
+    "git_sha": "b7c72f7a2602032c44cd65c62e7d67e542fcf08f",
+    "adjusted_files": []
+  },
+  {
+    "slug": "tototo-kantei",
+    "archive": "tototo-kantei-public.zip",
+    "bytes": 1564840,
+    "sha256": "2efa8e98cfb12791f29e5c12cba0e914a03ebade767a3976b68d19d64ed18c3c",
+    "git_sha": "1607e6817cc3961492907b76807d828807ef8bf4",
+    "adjusted_files": []
+  },
+  {
+    "slug": "udon-daihanjo",
+    "archive": "udon-daihanjo-public.zip",
+    "bytes": 2991976,
+    "sha256": "a4d5f47a8221423da1904d96974d89d7f5a7765dcaefe89750fe2bfe699d31bc",
+    "git_sha": "21a25a1e45438150995b21264165603d67003c1c",
+    "adjusted_files": []
+  },
+  {
+    "slug": "unyielding-knight",
+    "archive": "unyielding-knight-public.zip",
+    "bytes": 1350118,
+    "sha256": "1a52c6177febea572a3cd3640c1144ff1d546af3906cfdd2e084388cdada76c8",
+    "git_sha": "764653020631be1f7ce5cdff0146bff72210a405",
+    "adjusted_files": []
+  },
+  {
+    "slug": "uta-awase",
+    "archive": "uta-awase-public.zip",
+    "bytes": 3756128,
+    "sha256": "0c6351ff8fbd8f434602bb0fc2fb6cc2d74d02ec309a4257902425c250b59097",
+    "git_sha": "42744be90a2126cb293f7c20aaed3aabf288808c",
+    "adjusted_files": []
+  },
+  {
+    "slug": "uta-awase-v2",
+    "archive": "uta-awase-v2-public.zip",
+    "bytes": 18944500,
+    "sha256": "c0e5ff3fa185d67046b1a0af0cb01f42a556ff6cf1a127277bd08f407adaa1d1",
+    "git_sha": "f911b4528b02046f42482b1c568f3a18961d01e7",
+    "adjusted_files": []
+  },
+  {
+    "slug": "watashi-no-kuzuotoko",
+    "archive": "watashi-no-kuzuotoko-public.zip",
+    "bytes": 514503,
+    "sha256": "39145fc2f8b23ed2c375f7d27f40bdc1fa57c0e641d59be5c2e26d99750c9589",
+    "git_sha": "dd8fd1d2a2b718de88fd5b53e6d21ba285cf7ad5",
+    "adjusted_files": []
+  },
+  {
+    "slug": "watashi-no-kyososama",
+    "archive": "watashi-no-kyososama-public.zip",
+    "bytes": 13610635,
+    "sha256": "797f6928635380e91d794a9776fa48ec1d1cb48dc5bf4648308c394d1cfe5101",
+    "git_sha": "21f86254d5f9c92909d9df4265f84860f8b3573a",
+    "adjusted_files": []
+  },
+  {
+    "slug": "watashi-no-kyososama-2",
+    "archive": "watashi-no-kyososama-2-public.zip",
+    "bytes": 14115353,
+    "sha256": "5d5ee4057974287457cc411146611e767e9bcb780d4f915941d07e1c66441c1a",
+    "git_sha": "0ab7f80d5290fcf308e5a5431a6abe212ac35a5b",
+    "adjusted_files": []
+  },
+  {
+    "slug": "yami-shiokinin",
+    "archive": "yami-shiokinin-public.zip",
+    "bytes": 9860534,
+    "sha256": "35818f1a16241eef5a9118fa75f26fe1ce5a95d1641662fa33a34e6fffbb982f",
+    "git_sha": "a7908a6f15793943c2ea57459c538dd6c542b878",
+    "adjusted_files": []
+  }
+]
