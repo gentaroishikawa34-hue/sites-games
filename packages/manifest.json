@@ -322,5 +322,13 @@
     "sha256": "382207faf2016f2ac24496926165f6a08e33d154edc7f3ac2483a77ea1d18899",
     "git_sha": "447430d5060328dc2e1a26a64d63a2fb9d230b9f",
     "adjusted_files": []
+  },
+  {
+    "slug": "fukubiki-maker",
+    "archive": "fukubiki-maker-public.zip",
+    "bytes": 22031,
+    "sha256": "73a3b7d9958092563e86c58e6a80f72b9a94128af05da96da7326c8df14fa02c",
+    "git_sha": "2874dd32567fde55ee3d95890b8bf26bbcf6979b",
+    "adjusted_files": []
   }
 ]
