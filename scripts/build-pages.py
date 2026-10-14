@@ -1,4 +1,4 @@
-"""Extract only checksummed public runtime packages into the Pages artifact."""
+"""Assemble checksummed public packages and the standalone momikeshi game."""
 import hashlib,io,json,pathlib,shutil,zipfile
 root=pathlib.Path(__file__).resolve().parents[1]
 output=root/'_site';output.mkdir(exist_ok=True)
@@ -13,6 +13,7 @@ for item in manifest:
             assert not path.is_absolute() and '..' not in path.parts
             assert path.parts[0]==item['slug']
         archive.extractall(output)
+shutil.copytree(root/'momikeshi',output/'momikeshi',dirs_exist_ok=True,ignore=shutil.ignore_patterns('test-*.cjs','README.md'))
 shutil.copyfile(root/'index.html',output/'index.html')
 (output/'.nojekyll').touch()
-print(f'Prepared {len(manifest)} websites')
+print(f'Prepared {len(manifest)+1} websites')
