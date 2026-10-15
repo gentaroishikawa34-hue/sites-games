@@ -9,7 +9,7 @@ function boot(save){
  const localStorage={getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v),removeItem:k=>memory.delete(k)};
  document.querySelector('#dialog').showModal=function(){this.open=true;};document.querySelector('#dialog').close=function(){this.open=false;};
  const sandbox={window,document,localStorage,console,matchMedia:()=>({matches:true}),setTimeout:()=>0,clearTimeout:()=>{},location:{protocol:'https:',href:'https://example.test/momikeshi/'},navigator:{},Math};window.scrollTo=()=>{};
- vm.createContext(sandbox);for(const f of ['news.js','engine.js','ending.js','app.js'])vm.runInContext(fs.readFileSync(__dirname+'/'+f,'utf8'),sandbox,{filename:f});
+ vm.createContext(sandbox);for(const f of ['news.js','engine.js','ending.js','music.js','app.js'])vm.runInContext(fs.readFileSync(__dirname+'/'+f,'utf8'),sandbox,{filename:f});
  return {sandbox,document,click(sel){const el=document.querySelector(sel);assert(el,sel);el.dispatchEvent(new window.Event('click',{bubbles:true,cancelable:true}));},saved:()=>JSON.parse(memory.get('momikeshi-producer-v1'))};
 }
 let env=boot();assert.match(env.document.querySelector('#app').textContent,/もみけして/);env.click('#begin');assert.match(env.document.querySelector('#app').textContent,/世界を獲れ/);env.click('#storyNext');assert.equal(env.document.querySelectorAll('.story-members article').length,5);env.click('#storyNext');env.document.querySelector('#unitName').value='<夢&光>';env.document.querySelector('#newGame').dispatchEvent(new env.sandbox.window.Event('submit',{bubbles:true,cancelable:true}));assert.equal(env.saved().name,'<夢&光>');assert.equal(env.document.querySelector('.unit').textContent,'<夢&光>');assert.equal(env.document.querySelectorAll('[data-action]').length,4);
@@ -23,3 +23,13 @@ const serious=news.find(n=>n.serious);let s=G.create('秘密');s.phase='news';s.
 s=G.create('告白確認');s.affection[0]=80;s.phase='confession';s.confessions=[0];env=boot(s);env.click('#resume');assert(env.document.querySelector('#accept'));env.click('#accept');assert(env.saved().accepted[0]);
 s=G.create('炎上確認');s.phase='fireNotice';s.flare=true;s.suspicion=30;env=boot(s);env.click('#resume');env.click('[data-next]');assert(env.document.querySelector('[data-action="3"]').disabled);const f=env.saved().current;env.click(`[data-action="${(f.attr+1)%3}"]`);assert(env.document.querySelector('.leave'));assert(env.document.querySelector('.truth'));env.click('[data-next]');assert(env.document.querySelector('[data-action="3"]').disabled);
 console.log('PASS DOM integration: prologue, names/XSS escaping, 36 months through buttons, ending, replay, save/resume, hidden truth, coverup, confession, fire and departure. No rendered-browser test performed.');
+
+
+for(const leaves of [false,true]){
+ s=G.create('通常重大・離脱結果');s.popularity=50;s.phase='news';s.current={...serious,fire:false};G.resolve(s,(serious.attr+1)%3,()=>leaves?0:0.3);
+ env=boot(s);env.click('#resume');assert.equal(!!env.document.querySelector('.leave'),leaves);assert.equal(env.saved().popularity,25);
+ const savedBefore=JSON.stringify(env.saved());env=boot();env.click('#resume');assert.equal(JSON.stringify(env.saved()),savedBefore);assert.equal(!!env.document.querySelector('.leave'),leaves);
+}
+// Legacy result saves have no departures field and must remain readable.
+s=G.create('旧セーブ');s.phase='fireNews';s.flare=true;s.current={...serious,fire:true};G.resolve(s,(serious.attr+1)%3);delete s.result.departures;env=boot(s);env.click('#resume');assert(env.document.querySelector('.leave'));
+console.log('PASS new and legacy departure result UI, resume without reroll.');

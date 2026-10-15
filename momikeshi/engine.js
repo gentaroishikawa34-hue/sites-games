@@ -22,14 +22,14 @@ function draw(s,all,rng=Math.random,fire=false){
  if(!s.used.includes(n.id))s.used.push(n.id);
  s.current={...n,fire,repeated};s.result=null;s.phase=fire?'fireNews':'news';return s;
 }
-function resolve(s,action){
+function resolve(s,action,rng=Math.random){
  if(!['news','fireNews'].includes(s.phase))return false;
  if(![0,1,2,3].includes(action)||action===3&&(s.flare||s.current.fire))return false;
- const n=s.current,before=s.popularity,affBefore=[...s.affection];let o,delta;
+ const n=s.current,before=s.popularity,affBefore=[...s.affection],departures=[];let o,delta;
  if(action===3){o='covered';delta=0;s.suspicion+=10;s.coverups++;n.members.forEach(i=>{if(s.active[i])s.affection[i]=clamp(s.affection[i]+15);});}
- else{o=outcome(action,n.attr);delta=(n.serious?{win:8,draw:-5,lose:-12}:{win:5,draw:2,lose:-4})[o];s.popularity=clamp(s.popularity+delta);if(o==='win'){s.wins++;n.members.forEach(i=>{if(s.active[i])s.affection[i]=clamp(s.affection[i]+10);});}if(n.fire&&o==='lose')n.members.forEach(i=>s.active[i]=false);}
+ else{o=outcome(action,n.attr);delta=(n.serious?{win:0,draw:-10,lose:-25}:{win:5,draw:2,lose:0})[o];s.popularity=clamp(s.popularity+delta);if(o==='win'){s.wins++;n.members.forEach(i=>{if(s.active[i])s.affection[i]=clamp(s.affection[i]+10);});}if(n.serious&&o==='lose')n.members.forEach(i=>{if(s.active[i]&&(n.fire||rng()<0.30)){s.active[i]=false;departures.push(i);}});}
  s.confessions=n.members.filter(i=>s.active[i]&&!s.accepted[i]&&s.affection[i]>=80);
- s.result={outcome:o,action,delta,actual:s.popularity-before,before,affBefore};s.phase='result';
+ s.result={outcome:o,action,delta,actual:s.popularity-before,before,affBefore,departures};s.phase='result';
  s.history.push({turn:s.turn,title:n.title,fire:n.fire,outcome:o,change:s.popularity-before,truth:action===3?'':n.truth});return true;
 }
 function finishMonth(s,all,rng){if(s.turn>=35){s.phase='ending';return;}s.turn++;draw(s,all,rng);}
@@ -45,3 +45,4 @@ function advance(s,all,rng=Math.random){
 function valid(s){return !!s&&s.version===1&&typeof s.name==='string'&&Number.isInteger(s.turn)&&s.turn>=0&&s.turn<36&&Number.isFinite(s.popularity)&&s.popularity>=0&&s.popularity<=100&&Number.isFinite(s.suspicion)&&s.suspicion>=0&&['intro','news','fireNews','result','confession','fireNotice','ending'].includes(s.phase)&&['affection','active','accepted'].every(k=>Array.isArray(s[k])&&s[k].length===5)&&s.affection.every(n=>Number.isFinite(n)&&n>=0&&n<=100)&&s.active.every(n=>typeof n==='boolean')&&s.accepted.every(n=>typeof n==='boolean')&&Array.isArray(s.used)&&s.used.every(id=>typeof id==='string')&&Array.isArray(s.confessions)&&s.confessions.every(i=>Number.isInteger(i)&&i>=0&&i<5)&&Array.isArray(s.history)&&s.history.every(h=>h&&typeof h.title==='string')&&typeof s.flare==='boolean'&&Number.isInteger(s.coverups)&&Number.isInteger(s.wins)&&(s.phase!=='confession'||s.confessions.length>0)&&(!['news','fireNews','result'].includes(s.phase)||s.current&&Array.isArray(s.current.members))&&(s.phase!=='result'||s.result);}
 globalThis.Game={MEMBERS,clamp,outcome,title,create,draw,resolve,advance,valid};
 })();
+
