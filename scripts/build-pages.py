@@ -14,6 +14,7 @@ for item in manifest:
             assert path.parts[0]==item['slug']
         archive.extractall(output)
 shutil.copytree(root/'momikeshi',output/'momikeshi',dirs_exist_ok=True,ignore=shutil.ignore_patterns('test-*.cjs','README.md'))
+shutil.copytree(root/'god-hikoza',output/'god-hikoza',dirs_exist_ok=True,ignore=shutil.ignore_patterns('test-*.cjs','README.md'))
 shutil.copyfile(root/'index.html',output/'index.html')
 (output/'.nojekyll').touch()
-print(f'Prepared {len(manifest)+1} websites')
+print(f'Prepared {len(manifest)+2} websites')
