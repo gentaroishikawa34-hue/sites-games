@@ -3,3 +3,11 @@
 @media(min-width:1400px){.live-cast .portrait{--cell:312px}.ending .live-cast .portrait{--cell:174px}}
 @media(max-width:760px){.poster{height:270px;background-position:center 33%}.poster:after{background:linear-gradient(0deg,#180c27 0%,transparent 75%)}.live-cast .portrait{--cell:115.2px}.ending .live-cast .portrait{--cell:174px}.story{margin:10px auto 20px}.story h1{font-size:26px;margin-bottom:20px}.story>p{font-size:13px;line-height:2}.story blockquote{font-size:14px;margin:20px 0;padding:15px}.story-members{gap:15px}.story-members article{grid-template-columns:100px 1fr;gap:12px;padding:12px}.story-members h2{font-size:17px}.story-members blockquote{font-size:11px;padding:9px;margin:10px 0}.story-members p{font-size:11px}.story-members .portrait{position:sticky;top:12px}.ending .live-cast{height:115px}.ending .live-cast .portrait{height:115px;--cell:138px}}
 @media(max-width:370px){.live-cast .portrait{--cell:98.4px}}
+
+
+/* News-specific choices: equal emphasis, readable full-width touch targets. */
+.commands{grid-template-columns:1fr;gap:8px}
+.commands button[data-action]{display:flex;align-items:center;gap:10px;text-align:left;line-height:1.5;min-height:48px;padding:12px 14px;font-size:14px;background:linear-gradient(110deg,#342044,#21182f);border:1px solid #b98be55c;white-space:normal;overflow-wrap:anywhere}
+.commands button[data-action]:hover{background:#493058}
+.choice-number{display:grid;place-items:center;flex:0 0 25px;width:25px;height:25px;border-radius:8px;background:#ffffff15;color:#f5c9ff;font-size:11px}
+@media(max-width:700px){.commands{gap:6px}.commands button[data-action]{padding:9px 10px;font-size:12px;min-height:46px}.rules-inline{line-height:1.5}}
