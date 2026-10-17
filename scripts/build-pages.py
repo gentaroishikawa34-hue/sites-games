@@ -1,4 +1,4 @@
-"""Assemble checksummed public packages and the standalone momikeshi game."""
+"""Assemble checksummed public packages and standalone games/art."""
 import hashlib,io,json,pathlib,shutil,zipfile
 root=pathlib.Path(__file__).resolve().parents[1]
 output=root/'_site';output.mkdir(exist_ok=True)
@@ -15,6 +15,7 @@ for item in manifest:
         archive.extractall(output)
 shutil.copytree(root/'momikeshi',output/'momikeshi',dirs_exist_ok=True,ignore=shutil.ignore_patterns('test-*.cjs','README.md'))
 shutil.copytree(root/'god-hikoza',output/'god-hikoza',dirs_exist_ok=True,ignore=shutil.ignore_patterns('test-*.cjs','README.md'))
+shutil.copytree(root/'fractal-mugen',output/'fractal-mugen',dirs_exist_ok=True,ignore=shutil.ignore_patterns('test*.cjs','README.md'))
 shutil.copyfile(root/'index.html',output/'index.html')
 (output/'.nojekyll').touch()
-print(f'Prepared {len(manifest)+2} websites')
+print(f'Prepared {len(manifest)+3} websites')
