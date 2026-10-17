@@ -17,6 +17,7 @@ shutil.copytree(root/'momikeshi',output/'momikeshi',dirs_exist_ok=True,ignore=sh
 shutil.copytree(root/'god-hikoza',output/'god-hikoza',dirs_exist_ok=True,ignore=shutil.ignore_patterns('test-*.cjs','README.md'))
 shutil.copytree(root/'fractal-mugen',output/'fractal-mugen',dirs_exist_ok=True,ignore=shutil.ignore_patterns('test*.cjs','README.md'))
 shutil.copytree(root/'fractal2-life',output/'fractal2-life',dirs_exist_ok=True)
+shutil.copytree(root/'void-drain',output/'void-drain',dirs_exist_ok=True,ignore=shutil.ignore_patterns('README.md'))
 shutil.copyfile(root/'index.html',output/'index.html')
 (output/'.nojekyll').touch()
-print(f'Prepared {len(manifest)+4} websites')
+print(f'Prepared {len(manifest)+5} websites')
